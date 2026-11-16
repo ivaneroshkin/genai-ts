@@ -1,0 +1,24 @@
+{
+  "name": "genai-ts",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ivaneroshkin/genai-ts#readme",
+  "bugs": {
+    "url": "https://github.com/ivaneroshkin/genai-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivaneroshkin/genai-ts.git"
+  },
+  "license": "ISC",
+  "author": "Ivan Eroshkin",
+  "type": "commonjs",
+  "main": "index.js",
+    "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
