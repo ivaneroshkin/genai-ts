@@ -12,13 +12,25 @@
   },
   "license": "ISC",
   "author": "Ivan Eroshkin",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
-    "engines": {
-    "node": ">= 14.0.0",
-    "npm": ">= 6.0.0"
+  "engines": {
+    "node": ">= 26.0.0",
+    "npm": ">= 12.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/google-genai": "^2.3.6",
+    "@langchain/openai": "^1.8.4",
+    "dotenv": "^18.0.10"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^26.6.6",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   }
 }
