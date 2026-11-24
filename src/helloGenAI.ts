@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import { ChatOpenAI } from "@langchain/openai";
-import {ChatGoogleGenerativeAI} from "@langchain/google-genai";
+import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 
 dotenv.config();
 
@@ -12,7 +12,7 @@ const llm = new ChatGoogleGenerativeAI({
 
 console.log("Sending request to model...");
 const response = await llm.invoke("Describe role of AI engineer in 50 words?", {
-//   signal: AbortSignal.timeout(10_000),
+  //   signal: AbortSignal.timeout(10_000),
 });
 
 console.log(response.content);

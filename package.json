@@ -22,9 +22,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@langchain/classic": "^1.0.62",
+    "@langchain/core": "^1.5.1",
     "@langchain/google-genai": "^2.3.6",
     "@langchain/openai": "^1.8.4",
-    "dotenv": "^18.0.10"
+    "dotenv": "^18.0.10",
+    "langchain": "^1.6.8"
   },
   "devDependencies": {
     "@types/cli-progress": "^3.11.6",
